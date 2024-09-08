@@ -19,6 +19,7 @@ export default function Home() {
     >
       <a href="./drag">drag</a>
       <a href="./modileDrag">modileDrag</a>
+      <a href="./resizeDrag">resizeDrag</a>
       
     </div>
   );

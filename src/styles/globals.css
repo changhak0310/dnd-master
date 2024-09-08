@@ -20,11 +20,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.draggable > div {
+.draggable > div.box {
   transition: transform 0.2s ease-in-out;
 }
 
-.draggable.dragging > div {
+.draggable.dragging > div.box {
   cursor: grabbing;
   transform: scale(1.2);
 }
