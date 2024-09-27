@@ -1,4 +1,3 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 
 const geistSans = localFont({
@@ -20,6 +19,7 @@ export default function Home() {
       <a href="./drag">drag</a>
       <a href="./modileDrag">modileDrag</a>
       <a href="./resizeDrag">resizeDrag</a>
+      <a href="./dragCarousel">dragCarousel</a>
       
     </div>
   );
